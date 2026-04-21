@@ -1,55 +1,60 @@
-# Prerequisites
-*.d
+# =========================
+# 🐍 Python
+# =========================
+__pycache__/
+*.pyc
+*.pyo
 
-# Object files
-*.o
-*.ko
-*.obj
-*.elf
+# Jupyter / Colab
+.ipynb_checkpoints/
 
-# Linker output
-*.ilk
-*.map
-*.exp
+# =========================
+# 🧪 Virtual Environments
+# =========================
+handloom_env310/
+venv/
+env/
 
-# Precompiled Headers
-*.gch
-*.pch
+# =========================
+# 📦 Dataset (VERY IMPORTANT)
+# =========================
+dataset/
+final_dataset/
+processed_dataset/
+cropped/
 
-# Libraries
-*.lib
-*.a
-*.la
-*.lo
+# =========================
+# 🤖 Models & Weights
+# =========================
+*.pth
+*.h5
+*.pt
 
-# Shared objects (inc. Windows DLLs)
-*.dll
-*.so
-*.so.*
-*.dylib
+# =========================
+# 📊 Outputs / Results
+# =========================
+*.png
+*.jpg
+*.jpeg
+*.csv
+*.json
+runs/
+logs/
 
-# Executables
-*.exe
-*.out
-*.app
-*.i*86
-*.x86_64
-*.hex
+# =========================
+# 📁 System / IDE
+# =========================
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
 
-# Debug files
-*.dSYM/
-*.su
-*.idb
-*.pdb
+# =========================
+# 🔐 Environment files
+# =========================
+.env
 
-# Kernel Module Compile Results
-*.mod*
-*.cmd
-.tmp_versions/
-modules.order
-Module.symvers
-Mkfile.old
-dkms.conf
-
-# debug information files
-*.dwo
+# =========================
+# 📦 Archives
+# =========================
+*.zip
